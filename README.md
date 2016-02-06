@@ -26,7 +26,7 @@ My first test, checking to see if the title is put on the page, succeeds. The se
 
 ### Additional Libraries
 
-To complete the task, I included the library lib/jasmine-jquery.js as a utility library. This library provides:
+To complete the task, I included the library jasmine/lib/jasmine-jquery.js as a utility library. This library provides:
 
 * a set of Jasmine custom matchers for the jQuery framework
 
