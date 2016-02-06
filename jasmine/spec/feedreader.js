@@ -96,7 +96,7 @@ $(function () {
             // you can see the menu open on the above test and
             // stay open. Why do I find that cool?
             //
-            //spyEvent.reset();
+            spyEvent.reset();
             spyEvent = spyOnEvent(menuIcon, 'click');
             $(menuIcon).click();
             expect('click').toHaveBeenTriggeredOn(menuIcon);
