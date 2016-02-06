@@ -2,7 +2,7 @@
 
 For this project I was given a web-based application that reads RSS feeds and outputs the feeds as lists that are clickable to the original blog webpage. The lists are found in a left-slider menu that slides open after its icon is clicked.
 
-My task was to create a set of unit testing suites using the Jasmine BDD framework. To do that, I added tests to the file spec/feedreader.js. The original version of this file contained ToDo items that specified what tests were to be completed.
+My task was to create a set of unit testing suites using the Jasmine BDD framework. To do that, I added tests to the file jasmine/spec/feedreader.js. The original version of this file contained ToDo items that specified what tests were to be completed.
 
 ### Install
 
@@ -21,7 +21,7 @@ In studying the app's index.html file, I found that the app added the title and 
 
 The new API at https://rsstojson.udacity.com/parseFeed does not have a contentSnippet within its JSON. This is leading to the empty \<p\>\</p\> element. This, to me, is a bug in the code as it expects contentSnippet to exist.
 
-My first test, checking to see if the Title is put on the page, succeeds. The second test, checking if the contentSnippet is put on the page, fails. If you would like to see all tests succeed, just uncomment line 72 in js/app.js as this line adds a dummy contentSnippet string to each entry.
+My first test, checking to see if the title is put on the page, succeeds. The second test, checking if the contentSnippet is put on the page, fails for the reason explained above. If you would like to see all tests succeed, just uncomment line 72 in js/app.js as this line adds a dummy contentSnippet string to each entry.
 
 
 ### Additional Libraries
